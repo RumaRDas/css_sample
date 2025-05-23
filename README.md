@@ -1,1 +1,1 @@
-# Sample of CSS Flax Box
+# CSS Flax Box
