@@ -1,3 +1,9 @@
 body {
   color: brown;
 }
+td {
+  border: 2px solid brown;
+}
+tr {
+  border: 2px solid brown;
+}
