@@ -85,9 +85,9 @@ nav button {
   gap: 5px;
 }
 .main input {
-  padding: 18px 120px 18px 18px;
+  padding: 16px 120px 16px 18px;
   background: rgb(0, 0, 0, 0.5);
-  border: 1px solid rgb(169, 169, 169, 0.5);
+  border: 1px solid rgb(169, 169, 169, 0.4);
   border-radius: 5px;
   color: white;
   font-size: 16px !important;
@@ -105,13 +105,14 @@ nav button {
 .btn {
   padding: 3px 8px;
   font-weight: bold;
-  background-color: rgb(84, 83, 83, 0.7);
-  /* font-family: "Poppins", sans-serif; */
-  font-family: Arial, sans-serif;
+  background-color: rgb(84, 83, 83, 0.2);
+  font-family: "Poppins", sans-serif;
   border-radius: 5px;
   color: white;
   font-weight: 400;
-  border: 1px solid rgb(212, 212, 212, 0.5);
+  border: 1px solid rgb(212, 212, 212, 0.3);
+  cursor: pointer;
+  padding: 5px 10px;
   cursor: pointer;
 }
 .red-btn-sm {
@@ -121,12 +122,89 @@ nav button {
 .red-btn {
   background-color: red;
   color: white;
-  padding: 14px 30px;
+  padding: 12px 30px;
   font-size: 20px;
   font-weight: 500;
   border: none;
 }
-.arrow {
-  font-size: 14px;
-  margin-left: 5px;
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  margin: 7px auto 100px;
+  color: white;
+}
+/* .seeImg {
+  position: relative;
+}
+.seeImg img {
+  width: 30vw;
+  position: absolute;
+  z-index: 10;
+}
+.secImg video {
+  position: absolute;
+  width: 350px;
+} */
+.seeImg {
+  position: relative;
+  width: 100%;
+  max-width: 600px; /* Adjust based on design */
+  margin: auto;
+}
+
+.seeImg img {
+  width: 100%;
+  height: auto;
+  display: block;
+  z-index: 10;
+  position: relative;
+}
+
+.seeImg video {
+  position: absolute;
+  top: 18%; /* Adjust this value */
+  left: 13.5%; /* Adjust this value */
+  width: 73%; /* Adjust this value */
+  z-index: 5;
+  /* pointer-events: none; */
+}
+.thirdImg video {
+  position: absolute;
+  top: 18%; /* Adjust this value */
+  left: 13.5%; /* Adjust this value */
+  width: 81%; /* Adjust this value */
+  z-index: 5;
+}
+.first > div {
+  display: flex;
+  flex-direction: column;
+}
+.first > div :first-child {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.first > div :nth-child(2) {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.faq {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  width: 80vw;
+  margin: 50px auto 100px;
+  justify-content: center;
+}
+.faqBox {
+  display: flex;
+  background-color: rgb(64, 64, 64);
+  padding: 24px;
+  margin: 10px;
+  width: 100%;
+  justify-content: space-between;
 }
