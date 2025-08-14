@@ -288,5 +288,9 @@ footer {
   .footer {
     grid-template-columns: 1fr 1fr;
     gap: 55px;
+    align-items: center;
   }
+  /* .footer_item {
+    align-items: center;
+  } */
 }
