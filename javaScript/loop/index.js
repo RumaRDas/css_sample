@@ -20,6 +20,36 @@ let obj = {
 };
 console.log("For in loop");
 for (const key in obj) {
+  console.log("key", key);
   const element = obj[key];
-  console.log(key, element);
+  console.log("element", element);
 }
+
+console.log("For of loop");
+for (const c of "Harry") {
+  console.log("C", c);
+}
+//if key is there use for object
+// if element or iterator use for array
+const color = ["red", "blue", "green"];
+for (const elem of color) {
+  console.log(elem);
+}
+console.log("While loop");
+let j = 5;
+while (j < 6) {
+  console.log(j);
+  j++;
+}
+console.log("While loop");
+let k = 0;
+while (k < 6) {
+  console.log(k);
+  k++;
+}
+console.log("DO While");
+let g = 10;
+do {
+  console.log(g);
+  g++;
+} while (g <= 6);
