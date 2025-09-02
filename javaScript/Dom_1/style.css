@@ -1,0 +1,29 @@
+* {
+  text-align: center;
+  margin: auto;
+  background-color: rgb(123, 105, 214);
+  width: 80vw;
+  padding: auto;
+}
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.box {
+  height: 145px;
+  width: 145px;
+  align-items: center;
+  align-content: center;
+  border: 2px solid black;
+  background-color: rgb(238, 169, 169);
+}
+.box1 {
+  height: 145px;
+  width: 145px;
+  align-items: center;
+  align-content: center;
+  border: 2px solid black;
+  background-color: brown;
+}

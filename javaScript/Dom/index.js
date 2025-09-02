@@ -28,3 +28,11 @@ let test = document.getElementsByTagName("div");
 console.log("Div", test);
 console.log(test[7].matches("#box2"));
 console.log(test[8].matches("#box2"));
+let test1 = document
+  .querySelector(".container")
+  .contains(document.querySelector("body"));
+console.log("contains", test1);
+let test2 = document
+  .querySelector("body")
+  .contains(document.querySelector(".container"));
+console.log("contains...", test2);
